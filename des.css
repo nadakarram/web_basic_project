@@ -1,0 +1,132 @@
+ 
+ h2 {
+  font-size: 200%; /* Makes the text twice as large as normal */
+  color: darkblue; /* Sets dark blue color */
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic; /* Italicizes the heading */
+  font-weight: bold; /* Makes it bold */
+  font-variant: small-caps; /* Converts lowercase to smaller uppercase */
+}
+
+/* Styles paragraph text */
+p {
+  font-size: 100%; /* Normal size text */
+  color: #333333; /* Dark gray color for readability */
+  font-family: Arial, Helvetica, sans-serif; /* Clean sans-serif font */
+  font-style: normal;
+  font-weight: 400; /* Regular weight */
+  font-variant: normal;
+}
+ /* Styles the overall table text appearance */
+        table {
+            color: darkslategray;
+            font-size: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* Styles table headers (<th>) with a blue monospaced font */
+        th {
+            color: blue;
+            font-size: 100%;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Styles table cells (<td>) with a dark red font */
+        td {
+            color: darkred;
+            font-size: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /* Styles all form text (labels, inputs, etc.) */
+        form {
+            color: darkgreen;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        h4 {
+            display: inline-block;
+
+        }
+
+        pre {
+
+            /* take space  */
+            /* visibility: hidden;
+             */
+
+            display: none;
+        }
+
+        .overfl {
+            border: 3px solid blue;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .container {
+            background: black;
+            padding: 10px;
+            margin-top: 10px;
+
+            /* width: 600px; */
+            overflow: auto;
+            height: 400px;
+            display: flex;
+            /*inline width as contained only*/
+            justify-content: space-evenly;
+            align-items: center;
+            /* flex-direction:row; 
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            gap: 10px;
+        }
+
+        .container div:hover {
+            scale: 1.1;
+        }
+
+        .child1,
+        .child2,
+        .child3,
+        .child4 {
+
+            width: 100px;
+            height: 100px;
+            /* margin: 10px; */
+            font-size: xx-large;
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+
+        .container .child1 {
+            background-color: blue;
+            /* flex-grow: 2; */
+
+        }
+
+        .container .child2 {
+            background-color: yellow;
+            /* flex-grow: 3; */
+
+        }
+
+        .container .child3 {
+            background-color: pink;
+            /* flex-shrink: 1; */
+
+        }
+
+        .container .child4 {
+            background-color: green;
+            /* flex-shrink: 2; */
+
+        }
