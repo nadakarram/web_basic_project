@@ -186,3 +186,47 @@ ul li{
      /* flex-shrink: 2; */
 
  }
+
+ 
+/* ! grid */
+.gridcontainer {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "header header""nav content""footer footer";
+    gap: 10px;
+    justify-content: center;
+    
+
+}
+
+.gheader {
+    background-color: #931b4a;
+    grid-area: header;
+}
+
+.gfooter {
+    background-color: aqua;
+    grid-area: footer;
+}
+
+.gnav {
+    background-color: aquamarine;
+    grid-area: nav;
+}
+
+.gcontent {
+    background-color: blue;
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.gcontent1{
+    background-color: blueviolet;
+}
+.gaside{
+    background-color: burlywood;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="domstyle.css">
+</head>
+
+
+<body id="body">
+    <header>
+        <h2>My task manger</h2>
+        <button id="btn">toggle </button>
+    </header>
+    <main>
+
+        <!-- <button class="btn">click</button>
+        <button class="btn">click</button>
+        <button class="btn">click</button> -->
+
+
+
+
+
+        <form id="form">
+            <label >task title:</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <label >task description:</label>
+            
+            <br>
+            <textarea name="desc" id="desc"></textarea>
+            <br>
+            <label >task priorty:</label>
+            <br>
+            <select name="proirity" id="proirity">
+
+                <option value="high">high</option>
+                <option value="low">low</option>
+                <option value="medium">medium</option>
+            </select>
+            <br>
+            <button type="submit" id="submit" style="margin-top: 10px;">add task</button>
+        </form>
+        <section class="filtersection" >
+        <h2 style="display: inline;">
+            Filter by Priority:
+        </h2>
+         <select name="proirity" id="Filterproirity">
+                <option value="All">All</option>
+                <option value="high">high</option>
+                <option value="low">low</option>
+                <option value="medium">medium</option>
+            </select>
+        </section>
+        
+        <h2>tasks: </h2>
+
+        <div id="tasklist">
+
+        </div>
+        <ul></ul>
+        <!-- <h2>My Skills</h2>
+        <form id="form">
+            <input type="text" name="item" id="item">
+            <button type="submit" id="submit">add</button>
+        </form>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>
+                JavaScript
+                <ul>
+                    <li>Dom</li>
+                    <li>Reactjs</li>
+                    <li>Nodejs</li>
+                    <li>Nextjs</li>
+                </ul>
+            </li>
+            <li>php (laravel)</li>
+            <li> python</li>
+            <li>Problem Solving</li>
+        </ul>
+        <section id="contact">
+            <br>
+            <h2>Contact Me</h2>
+
+            <form action="./thanks.html" method="get" enctype="multipart/form-data">
+                <div>
+                    <label for="name">Name :</label>
+                    <br><br>
+                    <input type="text" name="usename" id="userinput" placeholder="enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email :</label>
+                    <br><br>
+                    <input type="email" name="email" id="emailinput" value="example@gmail.com"
+                        placeholder="enter your email">
+                </div>
+                <br>
+                <div>
+                    <label for="massage">Massage : </label>
+                    <br>
+                    <br>
+                    <textarea name="massage" id="massage" required placeholder="enter your Massage" cols="40"
+                        rows="7"></textarea>
+                </div>
+
+                <input type="submit" value="send">
+
+            </form>
+        </section>
+
+        <img src="" alt="" class="imagel"> -->
+    </main>
+
+
+
+
+
+
+
+
+    <!-- 
+    <footer>
+        <p><strong>Copyright</strong></p>
+        <p>Copyright &copy; 2025 Nada Karam</p>
+        <p>Registered Trademark &reg; Web Portfolio</p>
+        <h2>Find Me Online</h2>
+        <p>
+            <a href="">GitHub</a>
+            |
+            <a href="">LinkedIn</a>
+            |
+            <a href="">Twitter</a>
+        </p>
+    </footer> -->
+
+    <script src="./task.js"></script>
+</body>
+
+</html>

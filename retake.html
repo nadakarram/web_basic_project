@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <style>
+    .card {
+  position: relative;
+  z-index: 10;
+  opacity: 0.9; 
+  background: white;
+}
+
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; 
+  background: rgba(0,0,0,0.5);
+}
+
+.sidebar {
+  position: relative;
+  z-index: 20; 
+  background: blue;
+}</style>
+</head>
+<body>
+    <div class="page-wrapper">
+  <div class="card">
+    <div class="overlay">I should be on top!</div>
+  </div>
+  <div class="sidebar">I am a sidebar</div>
+</div>
+
+</body>
+</html>
